@@ -1,0 +1,7 @@
+c:\users\jusja\source\repos\GC_Bonus-16\GC_Bonus-16\bin\Debug\GC_Bonus-16.exe.config
+c:\users\jusja\source\repos\GC_Bonus-16\GC_Bonus-16\bin\Debug\GC_Bonus-16.exe
+c:\users\jusja\source\repos\GC_Bonus-16\GC_Bonus-16\bin\Debug\GC_Bonus-16.pdb
+c:\users\jusja\source\repos\GC_Bonus-16\GC_Bonus-16\obj\Debug\GC_Bonus-16.csprojAssemblyReference.cache
+c:\users\jusja\source\repos\GC_Bonus-16\GC_Bonus-16\obj\Debug\GC_Bonus-16.csproj.CoreCompileInputs.cache
+c:\users\jusja\source\repos\GC_Bonus-16\GC_Bonus-16\obj\Debug\GC_Bonus-16.exe
+c:\users\jusja\source\repos\GC_Bonus-16\GC_Bonus-16\obj\Debug\GC_Bonus-16.pdb

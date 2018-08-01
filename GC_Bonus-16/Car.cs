@@ -9,11 +9,12 @@ namespace GC_Bonus_16
 {
     class Car
     {
-        #region Fields
+         #region Fields
         private string make;
         private string model;
         private int year;
         private double price;
+
         #endregion
 
         #region Properties
@@ -33,7 +34,7 @@ namespace GC_Bonus_16
             {
                 if (!Regex.IsMatch(Convert.ToString(value), @"^\d{4}$"))
                 {
-                    throw new Exception("years is not vaild!");
+                    throw new Exception("Year is not vaild!");
                 }
                 else
                 {
@@ -59,6 +60,30 @@ namespace GC_Bonus_16
             }
             get { return price; }
         }
+
         #endregion
+        public Car() // default constructor (no-argument constructor)
+        {
+            Year = 2000;
+            Make = "not assigned";
+            Price = 40000;
+            Model = "000-00-0000";
+
+        }
+        //overoaded constructor
+        public Car(string mk, string md, int yr, double p)
+        {
+
+            Year = yr;
+            Make = mk;
+            Price = p;
+            Model = md;
+
+        }
+        //Methods
+        public virtual void PrintInfo()
+        {
+            Console.WriteLine($"{Make}, {Model}, {Year}, Price: {Price}");
+        }
     }
 }

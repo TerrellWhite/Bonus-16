@@ -18,6 +18,7 @@ namespace GC_Bonus_16
         #endregion
 
         #region Properties
+        public CarLot CarLot { set; get; }
         public string Make
         {
             set { make = value; }
@@ -83,7 +84,7 @@ namespace GC_Bonus_16
         //Methods
         public virtual void PrintInfo()
         {
-            Console.WriteLine($"{Make}, {Model}, {Year}, Price: {Price}");
+            Console.WriteLine($"{Make}, {Model}, {Year}, Price: {Price:C}");
         }
     }
 }

@@ -22,7 +22,7 @@ namespace GC_Bonus_16
         public override void PrintInfo()
         {
             base.PrintInfo();//calls code from to the top
-            Console.WriteLine($"(Used) {mileage} miles");
+            Console.WriteLine($"(Used) {mileage} miles");//:c
         }
     }
 }
